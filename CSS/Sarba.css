@@ -1,0 +1,75 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(../Poze/Sarba.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Set the background image to remain fixed */
+    height: 100vh; /* Set the body height to fill the viewport */
+}
+
+
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; /* Center items vertically */
+    margin-top: 5vh;
+}
+
+.joc {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin-top: 5vh;
+}
+
+.joc .Titlu {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.joc p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.joc h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.joc a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.joc a:hover {
+    text-decoration: underline;
+}
+
+.imagine {
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    max-width: 50vw;
+    height: 70vh;
+}
+
+.imagine video {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}

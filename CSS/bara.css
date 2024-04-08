@@ -1,0 +1,64 @@
+.bara{
+    width: auto;
+    height: 80px;
+    margin-left:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:0.5vw ;
+
+    text-shadow: 1px 1px 0 #000, 
+    -1px -1px 0 #000, 
+    1px -1px 0 #000, 
+    -1px 1px 0 #000;
+
+}
+
+.bara h1{
+    margin-left: 100px;
+    color: aliceblue;
+
+}
+.bara ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.bara ul a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.bara ul li{
+    font-size: 1.7vw;
+    font-family: arial;
+    color:#fff;
+    list-style: none;
+    margin-right: 50px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+
+
+.bara ul li a:hover{
+    color: #30d300;
+}
+
+.bara ul li ul.dropdown li{
+display: block;
+
+}
+
+.bara ul li ul.dropdown{
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+
+.bara ul li:hover ul.dropdown{
+    display: block;
+}

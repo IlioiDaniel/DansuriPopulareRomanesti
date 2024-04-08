@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(../Poze/homepage.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Set the background image to remain fixed */
+    height: 100vh; /* Set the body height to fill the viewport */
+}
+
+
+.contetnt{
+    position: absolute;
+    width: 99%;
+    margin-top: 20%;
+    font-family: arial;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+
+}
+.contetnt h1{
+    margin-right: 35%;
+    font-size: 1;
+}
